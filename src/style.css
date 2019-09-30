@@ -1,1 +1,31 @@
-
+.w3-theme-l5 {color:#000 !important; background-color:#f4fbfa !important}
+.w3-theme-l1 {color:#000 !important; background-color:#6bc7be !important}
+.w3-text-theme {color:#45b8ac !important}
+main {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+form {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: white;
+}
+.col-sm {
+  margin: 0px;
+}
+label {
+  text-align: right;
+}
+#submit {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#description {
+  text-align: center;
+}

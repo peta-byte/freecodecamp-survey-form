@@ -1,0 +1,151 @@
+<head>
+  <title>Survey Form</title>
+</head>
+<body class="w3-theme-l1">
+  <header>
+    <h1 id="title" class="w3-center w3-xxlarge mbt-3">Survey Form</h1>
+  </header>
+  <main class="container">     
+    <form id="survey-form" class="shadow-lg w3-theme-l5">
+      <p id="description" class="ml-0 mr-0 mt-3 mb-3">Let us know how we can improve freeCodeCamp</p>
+  <div class="form-group row">
+    <label id="name-label" class="col-sm" for="name">Name:</label>
+    <input type="text" class="form-control col-sm" id="name" placeholder="Enter your name" required>
+  </div>
+  <div class="form-group row">
+    <label id="email-label" for="email" class="col-sm">Email:</label>
+    <input type="email" class="form-control col-sm" id="email" placeholder="Enter your Email" required>
+  </div> 
+   <div class="form-group row">
+    <label id="number-label" for="number" class="col-sm">Age:</label>
+    <input type="number" class="form-control col-sm" id="number" min="10" max="70" placeholder="Age" required>
+  </div> 
+  <div class="form-group row">
+    <label id="dropdown-label" for="dropdown" class="col-sm">Which option best describes your current role?</label>
+    <select class="form-control col-sm" id="dropdown">
+      <option class="text-muted" disabled>Select an option</option>
+      <option selected>Student</option>
+      <option>Full Time Job</option>
+      <option>Full Time Learner</option>
+      <option>Prefer Not to Say</option>
+      <option>Other</option>
+    </select>
+  </div>
+   <div class="form-group row"> 
+    <label id="recs-label" for="recs" class="col-sm">How likely are you to recommend freeCodeCamp to a friend?</label>
+     <div class="col-sm">
+  <div id="recs" class="form-check">
+  <input class="form-check-input" type="radio" name="recommendation" id="recommendation1" value="definitely" checked>
+  <label id="recommendation1-label" class="form-check-label" for="recommendation1">
+    Definitely
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="recommendation" id="recommendation2" value="maybe">
+  <label id="recommendation2-label" class="form-check-label" for="recommendation2">
+    Maybe
+  </label>
+</div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="recommendation" id="recommendation3" value="not sure">
+  <label id="recommendation3-label" class="form-check-label" for="recommendation3">
+    Not sure
+  </label>
+</div>
+     </div>
+      </div>
+ <div class="form-group row">
+    <label id="likes-label" for="likes" class="col-sm">What do you like the most in FCC?</label>
+    <select class="form-control col-sm" id="likes">
+      <option class="text-muted" disabled>Select an option</option>
+      <option selected>Challenges</option>
+      <option>Projects</option>
+      <option>Community</option>
+      <option>Open Source</option>
+    </select>
+  </div>
+   </div>
+   <div class="form-group row"> 
+    <label id="improvements-label" for="improvemnts" class="col-sm">Things that should be improved in the future
+(Check all that apply):</label>
+     <div class="col-sm">
+  <div id="improvemnts" class="form-check">
+  <input class="form-check-input" type="checkbox" name="improvements" id="improve1" value="front-end projects">
+  <label id="improve1-label" class="form-check-label" for="improve1">
+    Front-end Projects
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" name="improvements" id="improve2" value="back-end projects">
+  <label id="improve2-label" class="form-check-label" for="improve2">
+    Back-end Projects
+  </label>
+</div>
+  <div class="form-check">
+  <input class="form-check-input" type="checkbox" name="improvements" id="improve3" value="data visualization">
+  <label id="improve3-label" class="form-check-label" for="improve3">
+   Data Visualization
+  </label>
+</div>
+ <div class="form-check">
+  <input class="form-check-input" type="checkbox" name="improvements" id="improve4" value="challenges">
+  <label id="improve4-label" class="form-check-label" for="improve4">
+   Challenges
+  </label>
+</div>
+  <div class="form-check">
+  <input class="form-check-input" type="checkbox" name="improvements" id="improve5" value="open source community">
+  <label id="improve5-label" class="form-check-label" for="improve5">
+  Open Source Community
+  </label>
+</div>
+  <div class="form-check">
+  <input class="form-check-input" type="checkbox" name="improvements" id="improve6" value="glitter help rooms">
+  <label id="improve6-label" class="form-check-label" for="improve6">
+ Gitter help rooms
+  </label>
+</div>
+ <div class="form-check">
+  <input class="form-check-input" type="checkbox" name="improvements" id="improve7" value="videos">
+  <label id="improve7-label" class="form-check-label" for="improve7">
+ Videos
+  </label>
+</div>
+ <div class="form-check">
+  <input class="form-check-input" type="checkbox" name="improvements" id="improve8" value="city meetups">
+  <label id="improve8-label" class="form-check-label" for="improve8">
+ City Meetups
+  </label>
+</div>
+   <div class="form-check">
+  <input class="form-check-input" type="checkbox" name="improvements" id="improve9" value="wiki">
+  <label id="improve9-label" class="form-check-label" for="improve9">
+ Wiki
+  </label>
+</div>
+  <div class="form-check">
+  <input class="form-check-input" type="checkbox" name="improvements" id="improve10" value="forum">
+  <label id="improve10-label" class="form-check-label" for="improve10">
+Forum
+  </label>
+</div>
+  <div class="form-check">
+  <input class="form-check-input" type="checkbox" name="improvements" id="improve11" value="additional courses">
+  <label id="improve11-label" class="form-check-label" for="improve11">
+Additional Courses
+  </label>
+</div>
+ </div> 
+      </div>
+  <div class="form-group row">
+    <label id="comments" for="comments" class="col-sm">Any Comments or Suggestions?</label>
+    <textarea class="form-control col-sm" id="comments" rows="3" placeholder="Enter your comments here..."></textarea>
+  </div>
+   <div class="form-group row">
+     <span class="col-sm"></span>
+    <input type="submit" class="form-control btn btn-primary col-sm" id="submit" value="Submit">
+  </div>
+      </form>
+  </main>
+  <footer></footer>
+</body>
